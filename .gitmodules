@@ -1,0 +1,4 @@
+[submodule "lib/libdtmf"]
+	path = lib/libdtmf
+	url = git@github.com:jens-a-e/libdtmf.git
+	branch = master

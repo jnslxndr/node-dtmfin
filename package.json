@@ -1,0 +1,29 @@
+{
+  "name": "node-dtmfin",
+  "version": "0.1.0",
+  "description": "DTMF tone detection with node via portaudio and libdtmf",
+  "main": "build/Release/dtmfin",
+  "scripts": {
+    "test": "node test.js",
+    "install": "node-gyp rebuild"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jens-a-e/node-dtmfin.git"
+  },
+  "keywords": [
+    "audio",
+    "sound",
+    "modem",
+    "phone",
+    "detection",
+    "dtmf"
+  ],
+  "author": "jens alexander ewald",
+  "license": "GPL",
+  "gypfile": true,
+  "bugs": {
+    "url": "https://github.com/jens-a-e/node-dtmfin/issues"
+  },
+  "homepage": "https://github.com/jens-a-e/node-dtmfin"
+}

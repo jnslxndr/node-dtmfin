@@ -10,6 +10,7 @@
       'libraries': [
           '<!@(pkg-config --libs-only-l portaudio-2.0)'
       ],
+      'cflags': ['-std=c99'],
       "sources": [
         'lib/libdtmf/src/dtmfin.c',
         "src/node-dtmfin.cc"

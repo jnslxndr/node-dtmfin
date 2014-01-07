@@ -1,6 +1,6 @@
 {
   "name": "node-dtmfin",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "DTMF tone detection with node via portaudio and libdtmf",
   "main": "build/Release/dtmfin",
   "scripts": {

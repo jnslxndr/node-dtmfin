@@ -6,11 +6,15 @@ var devices = dtmfin.list();
 console.log("Found:",devices);
 
 if (devices.length > 0) {
-  var info = dtmfin.open(0, function(code){
-    console.log("lklaskjd", code);
-  });
-  console.log(info);
-  process.stdin.resume();
-  // dtmfin.close();
+	try	{
+	  var info = dtmfin.open(-1, function(code){
+	    console.log("lklaskjd", code, arguments);
+	  });
+	  console.log(info);
+	  process.stdin.resume();
+	} catch (error) {
+		console.error("ERROR: ",error);
+	}
+  //dtmfin.close();
 }
 
